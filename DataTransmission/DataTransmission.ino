@@ -6,10 +6,10 @@ const int echoPin = 34; // Echo pin of HC-SR04 connected to GPIO 14
 const int pinIRd = 27;
 int IRvalueD = 0;
 
-const char* ssid = "ARNAV"; //Hidden due to privacy reasons    
-const char* password = "kolhatkar@C205"; //Hidden due to privacy reasons
-const char* serverAddress = "192.168.0.101"; //Hidden due to privacy reasons
-const int serverPort = 4080; //Hidden due to privacy reasons
+const char* ssid = ""; //Hidden due to privacy reasons    
+const char* password = ""; //Hidden due to privacy reasons
+const char* serverAddress = ""; //Hidden due to privacy reasons
+const int serverPort = ; //Hidden due to privacy reasons
 
 WiFiClient TCPclient;
 
